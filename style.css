@@ -1,0 +1,55 @@
+body {
+    font-family: "helveticaneuemedium";
+    font-size: 16px;
+}
+
+
+/*
+Hero Image CSS
+*/
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/product-img/Phantom.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed
+}
+
+.hero h1 {
+    color: #fff;
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: .5em
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    background-color: rgba(147, 112, 219, .8)
+}
+
+
+/*
+This is to keep the product tiles in a grid 
+*/
+
+.grid {
+    float: right;
+}
